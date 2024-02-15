@@ -33,6 +33,12 @@ export default function Price (props) {
           {stock.name}/USD
         </h1>
         <h2>{stock.lastPrice}</h2>
+        <h2>Symbol: {stock.symbol}</h2>
+            <h2>Last Price: {stock.lastPrice}</h2>
+            <h2>Change: {stock.change}</h2>
+            <h2>High: {stock.high}</h2>
+            <h2>Low: {stock.low}</h2>
+            <h2>Open: {stock.open}</h2>
         <h3>Put more data here if you want</h3>
       </div>
     );

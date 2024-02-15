@@ -220,7 +220,7 @@ function Price(props) {
 
   // loaded function for when data is fetched
   const loaded = () => {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, stock.name, "/USD"), /*#__PURE__*/React.createElement("h2", null, stock.lastPrice), /*#__PURE__*/React.createElement("h3", null, "Put more data here if you want"));
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, stock.name, "/USD"), /*#__PURE__*/React.createElement("h2", null, stock.lastPrice), /*#__PURE__*/React.createElement("h2", null, "Symbol: ", stock.symbol), /*#__PURE__*/React.createElement("h2", null, "Last Price: ", stock.lastPrice), /*#__PURE__*/React.createElement("h2", null, "Change: ", stock.change), /*#__PURE__*/React.createElement("h2", null, "High: ", stock.high), /*#__PURE__*/React.createElement("h2", null, "Low: ", stock.low), /*#__PURE__*/React.createElement("h2", null, "Open: ", stock.open), /*#__PURE__*/React.createElement("h3", null, "Put more data here if you want"));
   };
 
   // Function for when data doesn't exist
@@ -617,4 +617,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.0895d357ec5552de9a858b11a13400d6.js.map
+//# sourceMappingURL=App.9ba39db00c50eb17c4fa95b4724b6280.js.map
